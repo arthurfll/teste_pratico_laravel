@@ -1,1 +1,0 @@
-ver por nome

@@ -1,1 +1,0 @@
-deletar revisão

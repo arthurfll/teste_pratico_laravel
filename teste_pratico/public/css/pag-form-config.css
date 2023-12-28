@@ -1,0 +1,66 @@
+@import "./config.css";
+
+body {
+    background-color: var(--cor-de-fundo);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 40px;
+}
+h1{
+    color: white;
+}
+
+p{
+    color: white;
+}
+
+form {
+    background-color: black;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 450px;
+    border: solid 1px #ccc;
+    border-radius: 30px;
+}
+
+.campo {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+input,select {
+    width: 300px;
+    height: 25px;
+    border: solid 1px #ccc;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+select {
+    width: 310px;
+    height: 35px;
+}
+
+button {
+    width: 300px;
+    height: 40px;
+    border: solid 1px #ccc;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: rgb(37, 95, 143);
+    color: white;
+}

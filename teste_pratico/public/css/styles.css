@@ -1,0 +1,50 @@
+@import "./config.css";
+
+
+body {
+    background-color: var(--cor-de-fundo);
+    color: rgb(0, 0, 0);
+    align-items: center;
+    align-content: center;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    flex-direction: column;
+    height: 500px;
+}
+
+a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.titulo {
+    color: var(--cor-do-texto);
+    font-size: 40px;
+}
+
+.anchor {
+    background-color: rgb(68, 81, 109);
+    display: flex;
+    border: 2px solid rgb(255, 255, 255);
+    color: white;
+    border-radius: 15px;
+    width: 500px;
+    height: 200px;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.item {
+    margin: 20px;
+    border: 1px solid rgb(255, 250, 250);
+    border-radius: 6px;
+    padding: 10px;
+}
+
+.item:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+   }
